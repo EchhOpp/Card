@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./fav-icon.jfif">
+</head>
+
+<body>
+
+    <div class="container glass">
+        <!-- text------ -->
+        <div class="text">
+            <img src="./my-profile-img.jpg" alt="Profile-img">
+            <strong><span class="type"></span></strong>
+            <p>Learn Responisve Website design using HTML, CSS, and JavaScript</p>
+            <a href="https://www.messenger.com/t/100000596501001" class="btn" target="_blank">Contact Me</a>
+            <div class="social-media">
+                <a href="https://www.facebook.com/ngn.thluan285" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com/thluan.org_/" class="fa fa-instagram" target="_blank"></a>
+                <a href="#" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://github.com/quaivat285" class="fa fa-github" target="_blank"></a>
+            </div>
+
+        </div>
+    </div>
+    <!-- main-section --------------------->
+    <section id="main">
+        <!-- background-image ------------------>
+        <div class="bg">
+            <img src="./background-img.jpg">
+        </div>
+    </section>
+
+
+    <!-- javascript starts here ----------- -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('.type', {
+            strings: ['I am Nguyễn Thành Luân', 'Web-Developer', 'Competitive-Coder', 'Learner', 'YouTuber'],
+            typeSpeed: 100,
+            backSpeed: 70,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
